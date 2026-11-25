@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 0;
+  background-color: #b95e83;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffe0ec;
+  text-decoration: underline;
+}
+
+/* Home Style 1: Background */
+.home {
+  background-color: #fff0f5;
+}
+
+/* Home Style 2: Font */
+.home {
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #593849;
+}
+
+/* Home Style 3: Main heading */
+.home h1 {
+  color: #a64d79;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Home Style 4: Section headings */
+.home h2 {
+  color: #b95e83;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #e8a9c1;
+  padding-bottom: 0.3rem;
+}
+
+/* Home Style 5: Image */
+.home img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin: 1.5rem auto;
+  border: 5px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 15px #d8a7ba;
+}
+
+/* Home Style 6: Fluid layout */
+.home {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Resume Style 1: Background */
+.resume {
+  background-color: #fff0f5;
+}
+
+/* Resume Style 2: Font */
+.resume {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #593849;
+}
+
+/* Resume Style 3: Fixed-width layout */
+.resume {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Resume Style 4: Main heading */
+.resume h1 {
+  color: #a64d79;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Resume Style 5: Section headings */
+.resume h2 {
+  color: #b95e83;
+  font-size: 2.3rem;
+  border-bottom: 2px solid #e8a9c1;
+  padding-bottom: 0.3rem;
+}
+
+/* Resume Style 6: Subheadings */
+.resume h3 {
+  color: #914567;
+  font-size: 1.9rem;
+}
+
+/* Resume Style 7: Profile image */
+.resume img {
+  display: block;
+  width: 220px;
+  height: auto;
+  margin: 1rem auto;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px #d8a7ba;
+}
+
+/* Resume Style 8: Lists */
+.resume li {
+  padding-bottom: 0.3rem;
+}
+
+/* Anime Style 1: Background */
+.anime {
+  background-color: #fff0f5;
+}
+
+/* Anime Style 2: Font */
+.anime {
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #593849;
+}
+
+/* Anime Style 3: Fluid layout */
+.anime {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Anime Style 4: Main heading */
+.anime h1 {
+  color: #a64d79;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Anime Style 5: Section headings */
+.anime h2 {
+  color: #b95e83;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #e8a9c1;
+  padding-bottom: 0.3rem;
+}
+
+/* Anime Style 6: Image */
+.anime img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin: 1.5rem auto;
+  border: 5px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 15px #d8a7ba;
+}
+
+/* Anime Style 7: List items */
+.anime li {
+  padding-bottom: 0.4rem;
+}
+
+/* Anime Style 8: Video */
+.anime iframe {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border: 0;
+  border-radius: 1rem;
+}
+
+@media (max-width: 850px) {
+  .resume {
+    width: 95%;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+}
+
+
+/* Mobile Home Page */
+.home {
+  font-size: 1.2rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+
+.home h2 {
+  font-size: 1.8rem;
+}
+
+.home img {
+  max-width: 100%;
+}
+
+/* Tablet Screen */
+@media (min-width: 600px) {
+  .home {
+    font-size: 1.4rem;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .home h2 {
+    font-size: 2.2rem;
+  }
+
+  .home img {
+    max-width: 90%;
+  }
+}
+
+/* Desktop Screen */
+@media (min-width: 900px) {
+  .home {
+    font-size: 1.6rem;
+  }
+
+  .home h1 {
+    font-size: 3.5rem;
+  }
+
+  .home h2 {
+    font-size: 2.5rem;
+  }
+
+  .home img {
+    max-width: 80%;
+  }
+}
+
+
+/* Map Page */
+.map-page {
+  background-color: #fff0f5;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  color: #593849;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.map-page h1 {
+  color: #a64d79;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.map-page h2 {
+  color: #b95e83;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #e8a9c1;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  border: 5px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 15px #d8a7ba;
+}
+
+#questions {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.5rem 2rem;
+  background-color: #b95e83;
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#questions:hover {
+  background-color: #a64d79;
+}
